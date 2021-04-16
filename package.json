@@ -1,0 +1,27 @@
+{
+    "name": "docs.chrome_extension.github.io",
+    "version": "1.0.0",
+    "description": "Chrome扩展中文文档",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "dev": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StarkShang/docs.chrome_extension.github.io.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/StarkShang/docs.chrome_extension.github.io/issues"
+    },
+    "homepage": "https://github.com/StarkShang/docs.chrome_extension.github.io#readme",
+    "devDependencies": {
+        "koa": "^2.13.1",
+        "koa-static": "^5.0.0"
+    }
+}
